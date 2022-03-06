@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS_CONTACTO/style.css">
+    <link rel="stylesheet" href="js/formulario.js">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check" >
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace" >
+            <img src="Imagenes/external-content.duckduckgo.jpg" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Quien.html">Quienes somos</a></li>
+            <li><a href="Hacemos.html">Que hacemos</a></li>
+            <li><a href="Vendemos.html">Que vendemos</a></li>
+            <li><a href="Proxima.html">Proximan entregas</a></li>
+            <li><a class="active" href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+        <section class="Little">
+        <div class="container-form" >
+            <form method="post" name="formulario" 
+                    onsubmit="return validar(this)"  action="">
+                    <br>
+                    <p>
+                        <br>
+                        <label> Nombre: </label> 
+                        <br>
+                        <input type="text" name="nombre" id="nombre" >
+                        <br>
+                        <label> Edad: </label> 
+                        <br>
+                        <input type="number" name="edad" id="edad" >
+                        <br>
+                        <label> Email: </label> 
+                        <br>
+                        <input type="email" name="email" id="email" >
+                        <br>
+                        <label>Direccion:</label>
+                        <br>
+                        <input type="text" name="Direccion" id="dir">
+                    </p>
+                        <br>
+                        <input type="submit" name="enviar" value="Enviar Datos">
+                        <br>
+                        <input type="reset" name="borrar" value="Borrar Datos" >
+                    </form>
+                <img src="Imagenes/descarga.gif" alt="">
+        </div>
+        </section>
+</body>
+</html>
+
