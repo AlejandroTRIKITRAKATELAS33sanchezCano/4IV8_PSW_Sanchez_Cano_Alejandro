@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #3366B0;
+    height: 150px;
+    width: 100%;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:aliceblue;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background-color:#0b3c85;
+    transition:.5s
+}
+.checkbtn{
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+section.Little{
+    background: url(Rayquaza.png);
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 150px);
+}
+
+section.Little div{
+    width: 500px;
+    height: 150px;
+    background-color: #ffffff00;
+    position: relative;
+    left: 700px;
+    top: 500px;
+    border-radius: 33px;
+}
+
+section.Little div a{
+    position:relative;
+    left: 125px;
+    text-align: center;    
+}
+
+section.Little div img{
+    position: relative;
+
+    bottom: 0px;
+    left: 730px;
+
+    width: 150px;
+}
+
+table{
+    position: relative;
+
+    left: -500px;
+    top: -150px;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:rgb(240, 240, 240);
+    text-align: center;
+}
+
+th, td{
+    padding: 15px;
+}
