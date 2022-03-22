@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: darkslategray;
+    background-color: rgb(15, 36, 156);
 }
 
 h2,h3{
@@ -26,7 +26,7 @@ h2,h3{
 }
 
 .problema-container{
-    background-color: rgb(127, 89, 199);
+    background-color: rgb(66, 206, 211);
     padding: 1rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.87)
                 0 1px 3px rgba(0, 0, 0, 0.24);
@@ -44,13 +44,13 @@ input.problema-input{
     color: rgba(240, 238, 230, 0.863);
     background: none;
     width: 100%;
-    border-bottom: 2px solid rgb(0, 117, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
     font-size: 18px;
 }
 
 button.problema-button{
     border: none;
-    background-color: rgb(36, 226, 61);
+    background-color: rgb(34, 82, 185);
     color: bisque;
     text-transform: uppercase;
     font-weight: bold;
@@ -70,9 +70,9 @@ button.problema-button{
 
 .problema-output{
     width: 70%;
-    color: rgba(235, 228,228, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     font-family: monospace;
-    border: 1px solid #b4b5b7;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 1rem;
     margin-top: 1rem;
@@ -81,11 +81,11 @@ button.problema-button{
 
 .table.problema-table{
     margin: 1rem;
-    border: 1px solid rgb(208, 207, 208);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 td{
-    border-bottom: 1px solid #c3c3c3;
+    border-bottom: 1px solid #000000;
     padding-bottom: 1rem;
-    border-left: 1px solid #c3c3c3;
+    border-left: 1px solid #000000;
 }
